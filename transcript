@@ -1,0 +1,184 @@
+# Loading project risc_v
+# Compile of half_adder.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of four_bit_adder.v was successful.
+# Compile of four_bit_adder_TB.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim risc_v.FourBitAdderTB
+# vsim risc_v.FourBitAdderTB 
+# Start time: 10:27:02 on Sep 26,2020
+# Loading risc_v.FourBitAdderTB
+# Loading risc_v.FourBitAdder
+# Loading risc_v.half_adder
+# Loading risc_v.full_adder
+run
+run -all
+# ** Note: $finish    : /home/geert/projects/risc_v_verilog/four_bit_adder_TB.v(23)
+#    Time: 600 ns  Iteration: 0  Instance: /FourBitAdderTB
+# 1
+# Break in Module FourBitAdderTB at /home/geert/projects/risc_v_verilog/four_bit_adder_TB.v line 23
+# WARNING: No extended dataflow license exists
+add wave -position end  sim:/FourBitAdderTB/A
+add wave -position end  sim:/FourBitAdderTB/B
+add wave -position end  sim:/FourBitAdderTB/C
+run -all
+run -all
+run -all
+restart
+# Closing VCD file "test.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# ** Note: $finish    : /home/geert/projects/risc_v_verilog/four_bit_adder_TB.v(23)
+#    Time: 600 ns  Iteration: 0  Instance: /FourBitAdderTB
+# 1
+# Break in Module FourBitAdderTB at /home/geert/projects/risc_v_verilog/four_bit_adder_TB.v line 23
+restart
+# Closing VCD file "test.vcd"
+run -all
+# ** Note: $finish    : /home/geert/projects/risc_v_verilog/four_bit_adder_TB.v(23)
+#    Time: 600 ns  Iteration: 0  Instance: /FourBitAdderTB
+# 1
+# Break in Module FourBitAdderTB at /home/geert/projects/risc_v_verilog/four_bit_adder_TB.v line 23
+add dataflow sim:/FourBitAdderTB/FBA/*
+add dataflow sim:/FourBitAdderTB/FBA/ha0/#XOR#10/*
+add dataflow sim:/FourBitAdderTB/FBA/ha0
+add dataflow sim:/FourBitAdderTB/FBA/ha0/#XOR#10
+add dataflow sim:/FourBitAdderTB/FBA/ha0/#AND#11
+add dataflow sim:/FourBitAdderTB/FBA
+add dataflow sim:/FourBitAdderTB/FBA/A sim:/FourBitAdderTB/FBA/B sim:/FourBitAdderTB/FBA/S sim:/FourBitAdderTB/FBA/Cout sim:/FourBitAdderTB/FBA/C1 sim:/FourBitAdderTB/FBA/C2 sim:/FourBitAdderTB/FBA/C3
+# No drivers or ports for A
+# No drivers or ports for B
+# No drivers or ports for S
+# No drivers or ports for Cout
+# No drivers or ports for C1
+# No drivers or ports for C2
+add dataflow sim:/FourBitAdderTB/FBA
+add dataflow sim:/FourBitAdderTB/FBA/fa1
+add dataflow sim:/FourBitAdderTB/FBA/ha0
+add dataflow sim:/FourBitAdderTB/FBA
+add dataflow sim:/FourBitAdderTB/FBA
+add dataflow sim:/FourBitAdderTB/FBA/A sim:/FourBitAdderTB/FBA/B sim:/FourBitAdderTB/FBA/S sim:/FourBitAdderTB/FBA/Cout sim:/FourBitAdderTB/FBA/C1 sim:/FourBitAdderTB/FBA/C2 sim:/FourBitAdderTB/FBA/C3
+add dataflow sim:/FourBitAdderTB/FBA/A sim:/FourBitAdderTB/FBA/B sim:/FourBitAdderTB/FBA/S sim:/FourBitAdderTB/FBA/Cout sim:/FourBitAdderTB/FBA/C1 sim:/FourBitAdderTB/FBA/C2 sim:/FourBitAdderTB/FBA/C3
+add dataflow sim:/FourBitAdderTB/FBA/ha0
+add dataflow sim:/FourBitAdderTB/FBA/A sim:/FourBitAdderTB/FBA/B sim:/FourBitAdderTB/FBA/S sim:/FourBitAdderTB/FBA/Cout sim:/FourBitAdderTB/FBA/C1 sim:/FourBitAdderTB/FBA/C2 sim:/FourBitAdderTB/FBA/C3
+# No drivers or ports for A
+# No drivers or ports for B
+# No drivers or ports for S
+# No drivers or ports for Cout
+# No drivers or ports for C1
+# No drivers or ports for C2
+add dataflow sim:/FourBitAdderTB/FBA/A
+add dataflow sim:/FourBitAdderTB/FBA/A sim:/FourBitAdderTB/FBA/B sim:/FourBitAdderTB/FBA/S
+# No drivers or ports for A
+# No drivers or ports for B
+add dataflow sim:/FourBitAdderTB/FBA
+add dataflow sim:/FourBitAdderTB/FBA/ha0
+add dataflow sim:/FourBitAdderTB/FBA/ha0/x sim:/FourBitAdderTB/FBA/ha0/y sim:/FourBitAdderTB/FBA/ha0/Cout sim:/FourBitAdderTB/FBA/ha0/S
+# No drivers or ports for Cout
+vsim risc_v.FourBitAdderTB
+# End time: 10:40:57 on Sep 26,2020, Elapsed time: 0:13:55
+# Errors: 0, Warnings: 1
+# vsim risc_v.FourBitAdderTB 
+# Start time: 10:40:57 on Sep 26,2020
+# Loading risc_v.FourBitAdderTB
+# Loading risc_v.FourBitAdder
+# Loading risc_v.half_adder
+# Loading risc_v.full_adder
+# WARNING: No extended dataflow license exists
+add dataflow sim:/FourBitAdderTB
+# Compile of four_bit_adder_alt.v was successful.
+# Compile of four_bit_adder_alt_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of half_adder.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of four_bit_adder.v was successful.
+# Compile of four_bit_adder_TB.v was successful.
+# Compile of four_bit_adder_alt.v was successful.
+# Compile of four_bit_adder_alt_TB.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim risc_v.FourBitAdderAltTB
+# End time: 13:30:19 on Sep 26,2020, Elapsed time: 2:49:22
+# Errors: 0, Warnings: 6
+# vsim risc_v.FourBitAdderAltTB 
+# Start time: 13:30:19 on Sep 26,2020
+# Loading risc_v.FourBitAdderAltTB
+# Loading risc_v.FourBitAdder
+# Loading risc_v.half_adder
+# Loading risc_v.full_adder
+# ** Error: (vsim-3043) Unresolved reference to 'FourBitAdderTB'.
+#    Time: 0 ps  Iteration: 0  Instance: /FourBitAdderAltTB File: /home/geert/projects/risc_v_verilog/four_bit_adder_alt_TB.v Line: 17
+# Error loading design
+# End time: 13:30:19 on Sep 26,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of half_adder.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of four_bit_adder.v was successful.
+# Compile of four_bit_adder_TB.v was successful.
+# Compile of four_bit_adder_alt.v was successful.
+# Compile of four_bit_adder_alt_TB.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim risc_v.FourBitAdderAltTB
+# vsim risc_v.FourBitAdderAltTB 
+# Start time: 13:31:13 on Sep 26,2020
+# Loading risc_v.FourBitAdderAltTB
+# Loading risc_v.FourBitAdderAlt
+# ** Error: (vsim-3043) Unresolved reference to 'FourBitAdderTB'.
+#    Time: 0 ps  Iteration: 0  Instance: /FourBitAdderAltTB File: /home/geert/projects/risc_v_verilog/four_bit_adder_alt_TB.v Line: 17
+# Error loading design
+# End time: 13:31:13 on Sep 26,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+vsim risc_v.FourBitAdderAltTB
+# vsim risc_v.FourBitAdderAltTB 
+# Start time: 13:31:51 on Sep 26,2020
+# Loading risc_v.FourBitAdderAltTB
+# Loading risc_v.FourBitAdderAlt
+# ** Error: (vsim-3043) Unresolved reference to 'FourBitAdderTB'.
+#    Time: 0 ps  Iteration: 0  Instance: /FourBitAdderAltTB File: /home/geert/projects/risc_v_verilog/four_bit_adder_alt_TB.v Line: 17
+# Error loading design
+# End time: 13:31:51 on Sep 26,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 3
+vsim risc_v.FourBitAdderTB
+# vsim risc_v.FourBitAdderTB 
+# Start time: 13:31:53 on Sep 26,2020
+# Loading risc_v.FourBitAdderTB
+# Loading risc_v.FourBitAdder
+# Loading risc_v.half_adder
+# Loading risc_v.full_adder
+vsim risc_v.FourBitAdderAltTB
+# End time: 13:32:02 on Sep 26,2020, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 1
+# vsim risc_v.FourBitAdderAltTB 
+# Start time: 13:32:02 on Sep 26,2020
+# Loading risc_v.FourBitAdderAltTB
+# Loading risc_v.FourBitAdderAlt
+# ** Error: (vsim-3043) Unresolved reference to 'FourBitAdderTB'.
+#    Time: 0 ps  Iteration: 0  Instance: /FourBitAdderAltTB File: /home/geert/projects/risc_v_verilog/four_bit_adder_alt_TB.v Line: 17
+# Error loading design
+# End time: 13:32:02 on Sep 26,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of half_adder.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of four_bit_adder.v was successful.
+# Compile of four_bit_adder_TB.v was successful.
+# Compile of four_bit_adder_alt.v was successful.
+# Compile of four_bit_adder_alt_TB.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim risc_v.FourBitAdderAltTB
+# vsim risc_v.FourBitAdderAltTB 
+# Start time: 13:32:27 on Sep 26,2020
+# Loading risc_v.FourBitAdderAltTB
+# Loading risc_v.FourBitAdderAlt
+add wave -position end  sim:/FourBitAdderAltTB/A
+add wave -position end  sim:/FourBitAdderAltTB/B
+add wave -position end  sim:/FourBitAdderAltTB/C
+run -all
+# ** Note: $finish    : /home/geert/projects/risc_v_verilog/four_bit_adder_alt_TB.v(23)
+#    Time: 600 ns  Iteration: 0  Instance: /FourBitAdderAltTB
+# 1
+# Break in Module FourBitAdderAltTB at /home/geert/projects/risc_v_verilog/four_bit_adder_alt_TB.v line 23
+# WARNING: No extended dataflow license exists
+add dataflow sim:/FourBitAdderAltTB/FBA
+add dataflow sim:/FourBitAdderAltTB/FBA
+add dataflow sim:/FourBitAdderAltTB
+# End time: 14:36:07 on Sep 26,2020, Elapsed time: 1:03:40
+# Errors: 0, Warnings: 3

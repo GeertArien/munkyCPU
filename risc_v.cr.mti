@@ -1,0 +1,92 @@
+/home/geert/projects/risc_v_verilog/full_adder.v {1 {vlog -work risc_v -stats=none /home/geert/projects/risc_v_verilog/full_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} /home/geert/projects/risc_v_verilog/d_flip_flop_TB.v {1 {vlog -work work -stats=none /home/geert/projects/risc_v_verilog/d_flip_flop_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module d_flip_flop_TB
+
+Top level modules:
+	d_flip_flop_TB
+
+} {} {}} /home/geert/projects/risc_v_verilog/d_latch_TB.v {1 {vlog -work work -stats=none /home/geert/projects/risc_v_verilog/d_latch_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module d_latch_TB
+
+Top level modules:
+	d_latch_TB
+
+} {} {}} /home/geert/projects/risc_v_verilog/mult_4_to_1_TB.v {1 {vlog -work work -stats=none /home/geert/projects/risc_v_verilog/mult_4_to_1_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mult4to1TB
+
+Top level modules:
+	Mult4to1TB
+
+} {} {}} /home/geert/projects/risc_v_verilog/riscv_alu_TB.v {1 {vlog -work work -stats=none /home/geert/projects/risc_v_verilog/riscv_alu_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RISCVALUTB
+
+Top level modules:
+	RISCVALUTB
+
+} {} {}} /home/geert/projects/risc_v_verilog/d_latch.v {1 {vlog -work work -stats=none /home/geert/projects/risc_v_verilog/d_latch.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module d_latch
+
+Top level modules:
+	d_latch
+
+} {} {}} /home/geert/projects/risc_v_verilog/mult_4_to_1.v {1 {vlog -work work -stats=none /home/geert/projects/risc_v_verilog/mult_4_to_1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mult4to1
+
+Top level modules:
+	Mult4to1
+
+} {} {}} /home/geert/projects/risc_v_verilog/half_adder.v {1 {vlog -work risc_v -stats=none /home/geert/projects/risc_v_verilog/half_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module half_adder
+
+Top level modules:
+	half_adder
+
+} {} {}} /home/geert/projects/risc_v_verilog/alu_control.v {1 {vlog -work work -stats=none /home/geert/projects/risc_v_verilog/alu_control.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALUControl
+
+Top level modules:
+	ALUControl
+
+} {} {}} /home/geert/projects/risc_v_verilog/d_flip_flop.v {1 {vlog -work work -stats=none /home/geert/projects/risc_v_verilog/d_flip_flop.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module d_flip_flop
+
+Top level modules:
+	d_flip_flop
+
+} {} {}} /home/geert/projects/risc_v_verilog/four_bit_adder_TB.v {1 {vlog -work risc_v -stats=none /home/geert/projects/risc_v_verilog/four_bit_adder_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FourBitAdderTB
+
+Top level modules:
+	FourBitAdderTB
+
+} {} {}} /home/geert/projects/risc_v_verilog/riscv_alu.v {1 {vlog -work work -stats=none /home/geert/projects/risc_v_verilog/riscv_alu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RISCVALU
+
+Top level modules:
+	RISCVALU
+
+} {} {}} /home/geert/projects/risc_v_verilog/four_bit_adder.v {1 {vlog -work risc_v -stats=none /home/geert/projects/risc_v_verilog/four_bit_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FourBitAdder
+
+Top level modules:
+	FourBitAdder
+
+} {} {}}

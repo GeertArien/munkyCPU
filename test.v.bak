@@ -1,0 +1,31 @@
+
+	
+
+module dff_from_nand();
+wire Q,Qbar;
+reg D,CLK;
+ 
+//nand U1 (X,D,CLK) ;
+//nand U2 (Y,X,CLK) ;
+//nand U3 (Q,Q_BAR,X);
+//nand U4 (Q_BAR,Q,Y);
+
+not U1(not_d, D);
+and U2(and_0, CLK, not_d);
+and U3(and_1, CLK, d);
+nor U4(Q, and_0, Qbar);
+nor U5(Qbar, and_1, Q);
+ 
+// Testbench of above code
+initial begin
+  $monitor("CLK = %b D = %b Q = %b Qbar = %b",CLK, D, Q, Qbar);
+  CLK = 0;
+  D = 0;
+  #3  D = 1;
+  #2  D = 0;
+  #4  $finish;
+end	
+
+always  #2  CLK = ~CLK;
+
+endmodule

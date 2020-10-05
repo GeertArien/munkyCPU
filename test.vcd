@@ -1,0 +1,58 @@
+$date
+	Sun Oct  4 09:54:44 2020
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	100ps
+$end
+
+$scope module d_flip_flop_TB $end
+$var reg 1 ! CLK $end
+$var reg 1 " D $end
+$var wire 1 # Q $end
+$var wire 1 $ Qbar $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+x#
+x$
+$end
+#500
+1!
+#1000
+0!
+0#
+1$
+#1250
+1"
+#1500
+1!
+#2000
+0!
+0$
+1#
+#2500
+1!
+#2750
+0"
+#3000
+0!
+0#
+1$
+#3500
+1!
+#4000
+0!
+#4250
+1"
+#4500
+1!
+#5000
+0!
+0$
+1#
