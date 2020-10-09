@@ -12,6 +12,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	d_flip_flop_TB
 
+} {} {}} /home/geert/projects/risc_v_verilog/register_file.v {1 {vlog -work work -stats=none /home/geert/projects/risc_v_verilog/register_file.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register_file
+
+Top level modules:
+	register_file
+
 } {} {}} /home/geert/projects/risc_v_verilog/d_latch_TB.v {1 {vlog -work work -stats=none /home/geert/projects/risc_v_verilog/d_latch_TB.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module d_latch_TB

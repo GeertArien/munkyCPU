@@ -21,8 +21,8 @@ w1601446610
 8/home/geert/projects/risc_v_verilog/alu_control.v
 F/home/geert/projects/risc_v_verilog/alu_control.v
 !i122 86
-L0 1 17
-Z3 OV;L;2020.1;71
+Z3 L0 1 17
+Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
@@ -30,11 +30,11 @@ r1
 !s107 /home/geert/projects/risc_v_verilog/alu_control.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/geert/projects/risc_v_verilog/alu_control.v|
 !i113 1
-Z4 o-work work
-Z5 tCvgOpt 0
+Z5 o-work work
+Z6 tCvgOpt 0
 n@a@l@u@control
 vd_flip_flop
-Z6 !s110 1601798072
+Z7 !s110 1601798072
 !i10b 1
 !s100 CVlXYC`l6:8RVNYi[4?_z3
 R0
@@ -46,18 +46,18 @@ w1601798069
 F/home/geert/projects/risc_v_verilog/d_flip_flop.v
 !i122 114
 L0 1 9
-R3
+R4
 r1
 !s85 0
 31
-Z7 !s108 1601798072.000000
+Z8 !s108 1601798072.000000
 !s107 /home/geert/projects/risc_v_verilog/d_flip_flop.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/geert/projects/risc_v_verilog/d_flip_flop.v|
 !i113 1
-R4
 R5
-vd_flip_flop_TB
 R6
+vd_flip_flop_TB
+R7
 !i10b 1
 !s100 QZm[aGK=X:CWcLe3mZQ=A3
 R0
@@ -68,20 +68,20 @@ w1601797844
 8/home/geert/projects/risc_v_verilog/d_flip_flop_TB.v
 F/home/geert/projects/risc_v_verilog/d_flip_flop_TB.v
 !i122 115
-Z8 L0 3 24
-R3
+Z9 L0 3 24
+R4
 r1
 !s85 0
 31
-R7
+R8
 !s107 /home/geert/projects/risc_v_verilog/d_flip_flop_TB.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/geert/projects/risc_v_verilog/d_flip_flop_TB.v|
 !i113 1
-R4
 R5
+R6
 nd_flip_flop_@t@b
 vd_latch
-Z9 !s110 1601797328
+Z10 !s110 1601797328
 !i10b 1
 !s100 eO]<jR6BeUS`PiY=lE2oS1
 R0
@@ -93,18 +93,18 @@ w1601797318
 F/home/geert/projects/risc_v_verilog/d_latch.v
 !i122 109
 L0 1 11
-R3
+R4
 r1
 !s85 0
 31
-Z10 !s108 1601797328.000000
+Z11 !s108 1601797328.000000
 !s107 /home/geert/projects/risc_v_verilog/d_latch.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/geert/projects/risc_v_verilog/d_latch.v|
 !i113 1
-R4
 R5
+R6
 vd_latch_TB
-R9
+R10
 !i10b 1
 !s100 4@WKdLNc^zk0[=g46nCg`0
 R0
@@ -115,17 +115,17 @@ w1601797122
 8/home/geert/projects/risc_v_verilog/d_latch_TB.v
 F/home/geert/projects/risc_v_verilog/d_latch_TB.v
 !i122 110
-R8
-R3
+R9
+R4
 r1
 !s85 0
 31
-R10
+R11
 !s107 /home/geert/projects/risc_v_verilog/d_latch_TB.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/geert/projects/risc_v_verilog/d_latch_TB.v|
 !i113 1
-R4
 R5
+R6
 nd_latch_@t@b
 vdff_from_nand
 !s110 1601796646
@@ -140,7 +140,7 @@ w1601796625
 F/home/geert/projects/risc_v_verilog/test.v
 !i122 103
 L0 4 28
-R3
+R4
 r1
 !s85 0
 31
@@ -148,10 +148,10 @@ r1
 !s107 /home/geert/projects/risc_v_verilog/test.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/geert/projects/risc_v_verilog/test.v|
 !i113 1
-R4
 R5
+R6
 vFourBitAdder
-Z11 !s110 1601130878
+Z12 !s110 1601130878
 !i10b 1
 !s100 W08?ZniN;ijP60U8=iJY@1
 R0
@@ -163,19 +163,19 @@ w1601126269
 F/home/geert/projects/risc_v_verilog/four_bit_adder.v
 !i122 73
 L0 3 15
-R3
+R4
 r1
 !s85 0
 31
-Z12 !s108 1601130877.000000
+Z13 !s108 1601130877.000000
 !s107 /home/geert/projects/risc_v_verilog/four_bit_adder.v|
 !s90 -reportprogress|300|-work|risc_v|-stats=none|/home/geert/projects/risc_v_verilog/four_bit_adder.v|
 !i113 1
-Z13 o-work risc_v
-R5
+Z14 o-work risc_v
+R6
 n@four@bit@adder
 vFourBitAdderAlt
-Z14 !s110 1601119941
+Z15 !s110 1601119941
 !i10b 1
 !s100 @jVMg[Z]N^ek65TnmOX2Q1
 R0
@@ -187,19 +187,19 @@ w1601119714
 F/home/geert/projects/risc_v_verilog/four_bit_adder_alt.v
 !i122 22
 L0 3 10
-R3
+R4
 r1
 !s85 0
 31
-Z15 !s108 1601119941.000000
+Z16 !s108 1601119941.000000
 !s107 /home/geert/projects/risc_v_verilog/four_bit_adder_alt.v|
 !s90 -reportprogress|300|-work|risc_v|-stats=none|/home/geert/projects/risc_v_verilog/four_bit_adder_alt.v|
 !i113 1
-R13
-R5
+R14
+R6
 n@four@bit@adder@alt
 vFourBitAdderAltTB
-R14
+R15
 !i10b 1
 !s100 KQ@IDDBYIi>AN2;]Z_@ZI3
 R0
@@ -210,20 +210,20 @@ w1601119938
 8/home/geert/projects/risc_v_verilog/four_bit_adder_alt_TB.v
 F/home/geert/projects/risc_v_verilog/four_bit_adder_alt_TB.v
 !i122 23
-Z16 L0 3 23
-R3
+Z17 L0 3 23
+R4
 r1
 !s85 0
 31
-R15
+R16
 !s107 /home/geert/projects/risc_v_verilog/four_bit_adder_alt_TB.v|
 !s90 -reportprogress|300|-work|risc_v|-stats=none|/home/geert/projects/risc_v_verilog/four_bit_adder_alt_TB.v|
 !i113 1
-R13
-R5
+R14
+R6
 n@four@bit@adder@alt@t@b
 vFourBitAdderTB
-R11
+R12
 !i10b 1
 !s100 [mzLO6XS^nmI`jk:>^@0Y1
 R0
@@ -234,20 +234,20 @@ w1601119860
 8/home/geert/projects/risc_v_verilog/four_bit_adder_TB.v
 F/home/geert/projects/risc_v_verilog/four_bit_adder_TB.v
 !i122 74
-R16
-R3
+R17
+R4
 r1
 !s85 0
 31
-Z17 !s108 1601130878.000000
+Z18 !s108 1601130878.000000
 !s107 /home/geert/projects/risc_v_verilog/four_bit_adder_TB.v|
 !s90 -reportprogress|300|-work|risc_v|-stats=none|/home/geert/projects/risc_v_verilog/four_bit_adder_TB.v|
 !i113 1
-R13
-R5
+R14
+R6
 n@four@bit@adder@t@b
 vfull_adder
-Z18 !s110 1601130877
+Z19 !s110 1601130877
 !i10b 1
 !s100 L<lj:87[kSX4QZ0?:RZJ<3
 R0
@@ -259,18 +259,18 @@ w1601126223
 F/home/geert/projects/risc_v_verilog/full_adder.v
 !i122 72
 L0 3 14
-R3
+R4
 r1
 !s85 0
 31
-R12
+R13
 !s107 /home/geert/projects/risc_v_verilog/full_adder.v|
 !s90 -reportprogress|300|-work|risc_v|-stats=none|/home/geert/projects/risc_v_verilog/full_adder.v|
 !i113 1
-R13
-R5
+R14
+R6
 vhalf_adder
-R18
+R19
 !i10b 1
 !s100 [Xb5IAi9gcLQ2GAObddz22
 R0
@@ -282,18 +282,18 @@ w1601125539
 F/home/geert/projects/risc_v_verilog/half_adder.v
 !i122 71
 L0 3 7
-R3
+R4
 r1
 !s85 0
 31
-R12
+R13
 !s107 /home/geert/projects/risc_v_verilog/half_adder.v|
 !s90 -reportprogress|300|-work|risc_v|-stats=none|/home/geert/projects/risc_v_verilog/half_adder.v|
 !i113 1
-R13
-R5
+R14
+R6
 vMult4to1
-R11
+R12
 !i10b 1
 !s100 YCQFdP1MnZADz7cNY54iz1
 R0
@@ -305,16 +305,16 @@ w1601129635
 F/home/geert/projects/risc_v_verilog/mult_4_to_1.v
 !i122 75
 L0 1 13
-R3
+R4
 r1
 !s85 0
 31
-R17
+R18
 !s107 /home/geert/projects/risc_v_verilog/mult_4_to_1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/geert/projects/risc_v_verilog/mult_4_to_1.v|
 !i113 1
-R4
 R5
+R6
 n@mult4to1
 vMult4to1TB
 !s110 1601131094
@@ -329,7 +329,7 @@ w1601131091
 F/home/geert/projects/risc_v_verilog/mult_4_to_1_TB.v
 !i122 78
 L0 3 34
-R3
+R4
 r1
 !s85 0
 31
@@ -337,9 +337,32 @@ r1
 !s107 /home/geert/projects/risc_v_verilog/mult_4_to_1_TB.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/geert/projects/risc_v_verilog/mult_4_to_1_TB.v|
 !i113 1
-R4
 R5
+R6
 n@mult4to1@t@b
+vregister_file
+!s110 1602045672
+!i10b 1
+!s100 O[>2Xel6l<2A;m<MOfK;D2
+R0
+IVgV=IB==EQE0m07in7M@53
+R1
+R2
+w1602045667
+8/home/geert/projects/risc_v_verilog/register_file.v
+F/home/geert/projects/risc_v_verilog/register_file.v
+!i122 116
+R3
+R4
+r1
+!s85 0
+31
+!s108 1602045672.000000
+!s107 /home/geert/projects/risc_v_verilog/register_file.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/geert/projects/risc_v_verilog/register_file.v|
+!i113 1
+R5
+R6
 vRISCVALU
 !s110 1601437437
 !i10b 1
@@ -353,7 +376,7 @@ w1601437433
 F/home/geert/projects/risc_v_verilog/riscv_alu.v
 !i122 81
 L0 1 19
-R3
+R4
 r1
 !s85 0
 31
@@ -361,8 +384,8 @@ r1
 !s107 /home/geert/projects/risc_v_verilog/riscv_alu.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/geert/projects/risc_v_verilog/riscv_alu.v|
 !i113 1
-R4
 R5
+R6
 n@r@i@s@c@v@a@l@u
 vRISCVALUTB
 !s110 1601440243
@@ -377,7 +400,7 @@ w1601440238
 F/home/geert/projects/risc_v_verilog/riscv_alu_TB.v
 !i122 85
 L0 3 54
-R3
+R4
 r1
 !s85 0
 31
@@ -385,6 +408,6 @@ r1
 !s107 /home/geert/projects/risc_v_verilog/riscv_alu_TB.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/geert/projects/risc_v_verilog/riscv_alu_TB.v|
 !i113 1
-R4
 R5
+R6
 n@r@i@s@c@v@a@l@u@t@b
